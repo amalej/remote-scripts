@@ -25,3 +25,11 @@ Run the following cURL command:
 ```
 curl -sL amalej-scripts.web.app/vs-code/setup | bash
 ```
+
+## Setup Firebase CLI
+
+Run the following cURL command:
+
+```
+curl -sL amalej-scripts.web.app/firebase-cli/setup | bash
+```
