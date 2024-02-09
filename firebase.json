@@ -18,6 +18,10 @@
       {
         "source": "/vs-code/setup",
         "destination": "/vs-code/setup.bash"
+      },
+      {
+        "source": "/firebase-cli/setup",
+        "destination": "/firebase-cli/setup.bash"
       }
     ]
   }
