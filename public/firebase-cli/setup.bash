@@ -17,7 +17,8 @@ if [ ! "$update" = "false" ]; then
 fi
 
 # Install Firebase Tools
-curl -sL https://firebase.tools | bash
+echo "-- Installing Firebase CLI via NPM --"
+sudo npm i -g firebase-tools
 
 # Prompt that the script was completed
 if [ ! "$logLevel" = "info" ]; then

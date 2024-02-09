@@ -28,6 +28,8 @@ curl -sL https://amalej-scripts.web.app/vs-code/setup | bash
 
 ## Setup Firebase CLI
 
+This script installs the Firebase CLI via NPM
+
 Run the following cURL command:
 
 ```
