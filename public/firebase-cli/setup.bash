@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+## <script src="/formatter.js"></script>
+## <link href="/styles.css" rel="stylesheet" />
+
 if [ ! "$logLevel" = "info" ]; then
     echo "-- This is an auto-install script --"
 fi
