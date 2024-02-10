@@ -1,28 +1,31 @@
 {
-  "hosting": {
-    "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "/node/setup",
-        "destination": "/node/setup.bash"
-      },
-      {
-        "source": "/remote-desktop/setup",
-        "destination": "/remote-desktop/setup.bash"
-      },
-      {
-        "source": "/vs-code/setup",
-        "destination": "/vs-code/setup.bash"
-      },
-      {
-        "source": "/firebase-cli/setup",
-        "destination": "/firebase-cli/setup.bash"
-      }
-    ]
-  }
+  "hosting": [
+    {
+      "target": "prod",
+      "public": "public",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "/node/setup",
+          "destination": "/node/setup.bash"
+        },
+        {
+          "source": "/remote-desktop/setup",
+          "destination": "/remote-desktop/setup.bash"
+        },
+        {
+          "source": "/vs-code/setup",
+          "destination": "/vs-code/setup.bash"
+        },
+        {
+          "source": "/firebase-cli/setup",
+          "destination": "/firebase-cli/setup.bash"
+        }
+      ]
+    }
+  ]
 }

@@ -7,7 +7,7 @@ A compilation of script to help setup certain SDKs and other helpful tools. Most
 Run the following cURL command:
 
 ```
-curl -sL https://amalej-scripts.web.app/node/setup | bash
+curl -sL https://remote-scripts.web.app/node/setup | bash
 ```
 
 ## Setup Remote Desktop configuration
@@ -15,7 +15,7 @@ curl -sL https://amalej-scripts.web.app/node/setup | bash
 Run the following cURL command:
 
 ```
-curl -sL https://amalej-scripts.web.app/remote-desktop/setup | bash
+curl -sL https://remote-scripts.web.app/remote-desktop/setup | bash
 ```
 
 ## Setup VS Code
@@ -23,7 +23,7 @@ curl -sL https://amalej-scripts.web.app/remote-desktop/setup | bash
 Run the following cURL command:
 
 ```
-curl -sL https://amalej-scripts.web.app/vs-code/setup | bash
+curl -sL https://remote-scripts.web.app/vs-code/setup | bash
 ```
 
 ## Setup Firebase CLI
@@ -33,5 +33,5 @@ This script installs the Firebase CLI via NPM
 Run the following cURL command:
 
 ```
-curl -sL https://amalej-scripts.web.app/firebase-cli/setup | bash
+curl -sL https://remote-scripts.web.app/firebase-cli/setup | bash
 ```

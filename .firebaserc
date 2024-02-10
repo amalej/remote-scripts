@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "amalej-scripts"
-  }
+  },
+  "targets": {
+    "amalej-scripts": {
+      "hosting": {
+        "prod": [
+          "remote-scripts"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
