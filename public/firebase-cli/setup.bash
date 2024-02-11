@@ -19,9 +19,24 @@ if [ ! "$update" = "false" ]; then
     sudo apt-get -y upgrade
 fi
 
+# Determine version
+if [ -z $version ]; then
+	version=latest
+else
+	version="v${version//[a-zA-Z]/}"
+fi
+echo "-- Will be using version $version --"
+
 # Install Firebase Tools
-echo "-- Installing Firebase CLI via NPM --"
-sudo npm i -g firebase-tools
+if [ "$useBinary" = "true" ]; then
+    echo "-- Downloading standalone binary version --"
+	FCLI_RES=$(curl -sL https://firebase.tools)
+	version="$version\""
+	echo "${FCLI_RES//\/latest\"/\/$version}" | bash
+else
+    echo "-- Downloading NPM version --"
+	sudo npm i -g firebase-tools@$version
+fi
 
 # Prompt that the script was completed
 if [ ! "$logLevel" = "info" ]; then
