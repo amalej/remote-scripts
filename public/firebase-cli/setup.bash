@@ -16,7 +16,7 @@ fi
 # Run "apt-get -y upgrade"
 if [ ! "$update" = "false" ]; then
     echo "-- Running \"apt-get -y upgrade\" --"
-    # sudo apt-get -y upgrade
+    sudo apt-get -y upgrade
 fi
 
 # Determine version
