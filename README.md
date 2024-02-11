@@ -48,11 +48,15 @@ curl -sL https://remote-scripts.web.app/firebase-cli/setup | bash
 
 ### Install the standalone version
 
+Pass the `useBinary=true` argument
+
 ```shell
 curl -sL https://remote-scripts.web.app/firebase-cli/setup | useBinary=true bash
 ```
 
 ### Install a specific version
+
+Pass the `version=SOME_VERSION` argument
 
 ```shell
 curl -sL https://remote-scripts.web.app/firebase-cli/setup | version=v13.2.0 bash
