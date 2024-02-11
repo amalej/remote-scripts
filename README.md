@@ -1,6 +1,14 @@
 # A compilation of auto install/setup scripts
 
-A compilation of script to help setup certain SDKs and other helpful tools. Mostly used for setting up Raspberry Pi.
+A compilation of script to help setup certain SDKs and other helpful tools. Mostly used for setting up Raspberry Pi
+
+## Overview
+
+Pass the `update=false` argument to skip updating the package index files on the system
+
+```shell
+curl -sL https://remote-scripts.web.app/firebase-cli/setup | update=false bash
+```
 
 ## Install Node JS
 
