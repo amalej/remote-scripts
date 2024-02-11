@@ -6,7 +6,7 @@ A compilation of script to help setup certain SDKs and other helpful tools. Most
 
 Run the following cURL command:
 
-```
+```shell
 curl -sL https://remote-scripts.web.app/node/setup | bash
 ```
 
@@ -14,7 +14,7 @@ curl -sL https://remote-scripts.web.app/node/setup | bash
 
 Run the following cURL command:
 
-```
+```shell
 curl -sL https://remote-scripts.web.app/remote-desktop/setup | bash
 ```
 
@@ -22,16 +22,30 @@ curl -sL https://remote-scripts.web.app/remote-desktop/setup | bash
 
 Run the following cURL command:
 
-```
+```shell
 curl -sL https://remote-scripts.web.app/vs-code/setup | bash
 ```
 
 ## Setup Firebase CLI
 
-This script installs the Firebase CLI via NPM
+This script, by default, installs the Firebase CLI via NPM
 
 Run the following cURL command:
 
-```
+### Install via NPM
+
+```shell
 curl -sL https://remote-scripts.web.app/firebase-cli/setup | bash
+```
+
+### Install the standalone version
+
+```shell
+curl -sL https://remote-scripts.web.app/firebase-cli/setup | useBinary=true bash
+```
+
+### Install a specific version
+
+```shell
+curl -sL https://remote-scripts.web.app/firebase-cli/setup | version=v13.2.0 bash
 ```
