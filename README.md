@@ -59,5 +59,5 @@ curl -sL https://remote-scripts.web.app/firebase-cli/setup | useBinary=true bash
 Pass the `version=SOME_VERSION` argument
 
 ```shell
-curl -sL https://remote-scripts.web.app/firebase-cli/setup | version=v13.2.0 bash
+curl -sL https://remote-scripts.web.app/firebase-tools/setup | version=v13.2.0 bash
 ```

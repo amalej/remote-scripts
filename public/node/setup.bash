@@ -43,3 +43,5 @@ if [ ! "$logLevel" = "info" ]; then
 fi
 
 exit 0
+
+# EOF

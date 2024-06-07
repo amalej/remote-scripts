@@ -22,8 +22,16 @@
           "destination": "/vs-code/setup.bash"
         },
         {
-          "source": "/firebase-cli/setup",
-          "destination": "/firebase-cli/setup.bash"
+          "source": "/firebase-tools/setup",
+          "destination": "/fbase-tools/setup.bash"
+        },
+        {
+          "source": "/testing/echo",
+          "destination": "/testing/echo.bash"
+        },
+        {
+          "source": "/new-test/echo",
+          "destination": "/new-test/echo.bash"
         }
       ]
     }
