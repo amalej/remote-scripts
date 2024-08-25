@@ -43,7 +43,7 @@ Run the following cURL command:
 ### Install via NPM
 
 ```shell
-curl -sL https://remote-scripts.web.app/firebase-cli/setup | bash
+curl -sL https://remote-scripts.web.app/firebase-tools/setup | bash
 ```
 
 ### Install the standalone version
