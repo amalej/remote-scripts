@@ -51,7 +51,7 @@ curl -sL https://remote-scripts.web.app/firebase-cli/setup | bash
 Pass the `useBinary=true` argument
 
 ```shell
-curl -sL https://remote-scripts.web.app/firebase-cli/setup | useBinary=true bash
+curl -sL https://remote-scripts.web.app/firebase-tools/setup | useBinary=true bash
 ```
 
 ### Install a specific version
